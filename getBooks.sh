@@ -4,6 +4,7 @@
 mkdir -p StarterKit/Books/PharoByExample
 mkdir -p StarterKit/Books/NumericalMethods
 mkdir -p StarterKit/Books/DeepIntoPharo
+mkdir -p StarterKit/Flyers
 
 cd StarterKit/Books/
 
@@ -17,4 +18,13 @@ wget http://pharobooks.gforge.inria.fr/PharoByExampleTwo-Eng/latest/PBE2.pdf -O 
 
 wget https://github.com/SquareBracketAssociates/NumericalMethods/releases/download/snapshot-2015-01-26/NumericalMethods-jan2015.pdf -O NumericalMethods/NumericalMethods-2015-EN.pdf
 
+
+cd ../Flyers
+git clone https://github.com/pharo-project/pharo-flyers
+cd pharo-flyers
+pdflatex flyerpharo.tex
+pdflatex flyerpharo.tex
+mv flyerpharo.pdf ..
+cd ..
+rm -rf pharo-flyers
 
