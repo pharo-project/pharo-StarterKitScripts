@@ -11,8 +11,8 @@ VM_LATEST=2015.08.06 # in http://files.pharo.org/vm/src/vm-unix-sources/blessed/
 VERSION=$MAJOR$MINOR
 VERSION_DOTTED=$MAJOR.$MINOR
 
-mkdir -p StarterKit/Pharo$VERSION
-cd StarterKit/Pharo$VERSION
+mkdir -p StarterKit/PharoVM$VERSION
+cd StarterKit/PharoVM$VERSION
 
 wget http://files.pharo.org/platform/Pharo$VERSION_DOTTED-mac.zip
 wget http://files.pharo.org/platform/Pharo$VERSION_DOTTED-win.zip
