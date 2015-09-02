@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 mkdir -p StarterKit/Flyers
+# Exit immediately if a command exits with a non-zero status.
+set -e
 
 cd StarterKit/Flyers
 

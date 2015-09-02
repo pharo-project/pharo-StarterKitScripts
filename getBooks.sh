@@ -2,6 +2,8 @@
 #check files.pharo.org/get/
 
 mkdir -p StarterKit/Books/PharoByExample
+# Exit immediately if a command exits with a non-zero status.
+set -e
 mkdir -p StarterKit/Books/NumericalMethods
 mkdir -p StarterKit/Books/DeepIntoPharo
 mkdir -p StarterKit/Books/EnterprisePharo
