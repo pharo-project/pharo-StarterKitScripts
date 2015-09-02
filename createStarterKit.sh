@@ -11,3 +11,4 @@ rm -rf ./StarterKit
 ./getSlides.sh
 ./getVideos.sh
 ./getWebsites.sh
+cp README.txt StarterKit/
