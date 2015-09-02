@@ -17,4 +17,6 @@ mv 4-Done Slides
 find . \( -name '*.html' -or -name '*.tex' \) -exec rm -f '{}' \;
 cd Slides
 wget https://github.com/SquareBracketAssociates/PharoMooc/raw/master/Slides/4-Done/Intro-ImmersionInObjectLand.pdf
+wget https://github.com/SquareBracketAssociates/PharoMooc/raw/master/Slides/4-Done/2015-Seaside-InANutshell.pdf
+wget https://github.com/SquareBracketAssociates/PharoMooc/raw/master/Slides/4-Done/README.txt
 cd ..
