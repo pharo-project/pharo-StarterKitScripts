@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#check files.pharo.org/get/
 
 # Exit immediately if a command exits with a non-zero status.
 set -e
