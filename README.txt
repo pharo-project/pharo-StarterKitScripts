@@ -24,3 +24,14 @@ Pharo is yours
 --------------
 
 Pharo is made by an incredible community, with more than 80 contributors for the last revision of the platform and hundreds of people contributing constantly with frameworks and libraries.
+
+Content
+-------
+
+- Books: Here you find the four books about Pharo
+
+- Exercises: Six self-contained exercises that each teach some aspect of Pharo
+
+- Pharo40VM: Installers for Pharo4 for Linux, Mac and Windows
+
+- Slides: a series of Lectures about Pharo
