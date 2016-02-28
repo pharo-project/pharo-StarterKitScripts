@@ -22,4 +22,4 @@ wget https://ci.inria.fr/pharo-contribution/job/EnterprisePharoBook/lastSuccessf
 
 wget https://github.com/SquareBracketAssociates/NumericalMethods/releases/download/snapshot-2015-01-26/NumericalMethods-jan2015.pdf -O NumericalMethods/NumericalMethods-2015-EN.pdf
 
-mv ../README-books.txt .
+cp ../../README-books.txt README.txt
