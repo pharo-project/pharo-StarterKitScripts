@@ -3,7 +3,7 @@
 # Exit immediately if a command exits with a non-zero status.
 set -e
 
-MAJOR=4
+MAJOR=5
 MINOR=0
 VM_LATEST=2015.08.06 # in http://files.pharo.org/vm/src/vm-unix-sources/blessed/
 
