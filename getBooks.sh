@@ -12,5 +12,4 @@ cd StarterKit/BooksAndBooklets
 wget --accept pdf --no-parent --no-host-directories --recursive --level 2 http://files.pharo.org/books-pdfs/
 
 mv books-pdfs/* .
-
-cp ../README-books.txt Starter/BooksAndBooklets/README.txt
+rm -r books-pdfs
