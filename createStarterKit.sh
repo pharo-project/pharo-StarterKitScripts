@@ -8,7 +8,6 @@ mkdir StarterKit
 cp README.txt StarterKit/
 
 #first the books and the booklets
-# should remove empty folders
 ./getBooks.sh
 cp README-books.txt StarterKit/BooksAndBooklets/README.txt
 
@@ -17,8 +16,16 @@ cp README-books.txt StarterKit/BooksAndBooklets/README.txt
 # should remove pillar
 ./getExercises.sh
 
+## should rename the script in cheatsheet
 ./getFlyers.sh
-./getPlatform.sh
+
+## 
+./getPlatform50.sh
+./getPlatform60.sh
+
+##
 ./getSlides.sh
-./getVideos.sh
+
+./getYoutubeVideos.sh
+
 ./getWebsites.sh

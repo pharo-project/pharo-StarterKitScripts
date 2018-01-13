@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
-
 # Exit immediately if a command exits with a non-zero status.
 set -e
 
-MAJOR=5
-MINOR=0
-VM_LATEST=2015.08.06 # in http://files.pharo.org/vm/src/vm-unix-sources/blessed/
+MAJOR=6
+MINOR=1
 
 VERSION=$MAJOR$MINOR
 VERSION_DOTTED=$MAJOR.$MINOR
@@ -15,21 +13,19 @@ cd StarterKit/PharoVM$VERSION
 
 wget http://files.pharo.org/platform/Pharo$VERSION_DOTTED-mac.zip
 wget http://files.pharo.org/platform/Pharo$VERSION_DOTTED-win.zip
+wget http://files.pharo.org/platform/Pharo$VERSION_DOTTED-64-mac.zip
 
-mkdir -p linux/vm/binaries
-cd linux/vm/binaries
-wget http://files.pharo.org/vm/pharo/linux/old-libc/Pharo-VM-linux-oldLibC.zip
-wget http://files.pharo.org/vm/pharo/linux/old-libc/pharovm-ubuntu804.tar.gz
-wget http://files.pharo.org/vm/pharo/linux/latest.zip
 
-cd ..
-mkdir sources
-cd sources
-wget http://files.pharo.org/vm/src/vm-unix-sources/blessed/pharo-vm-$VM_LATEST.tar.bz2
+mkdir -p linux/
+cd linux
+wget https://files.pharo.org/platform/Pharo6.1-64-linux.zip
 
-cd ../..
-wget http://files.pharo.org/get-files/$VERSION/pharo.zip -O pharo$VERSION-image.zip
-wget http://files.pharo.org/sources/PharoV$VERSION.sources.zip
+cd ../
+#wget http://files.pharo.org/get-files/$VERSION/pharo.zip -O pharo$VERSION-image.zip
+
+wget https://files.pharo.org/get-files/60/pharo.zip -O pharo$VERSION-32-imagechange.zip
+wget https://files.pharo.org/get-files/60/sources.zip -O pharo$VERSION-sources.zip
+wget https://files.pharo.org/get-files/60/pharo64.zip -O pharo$VERSION-64-imagechange.zip
 
 cd ..
 
